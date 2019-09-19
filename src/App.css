@@ -43,14 +43,22 @@
   background-color: gold;
 }
 .CodeInput > div.dot-3::after {
-  background-color: lime;
+  background:
+    linear-gradient(45deg, #92baac 4.5px, transparent 4.5px)6.4px 6.4px,
+    linear-gradient(45deg, #92baac 4.5px, transparent 4.5px,transparent 9.1px, #e1ebbd 9.1px, #e1ebbd 13.5px, transparent 13.5px),
+    linear-gradient(-45deg, #92baac 2.3px, transparent 2.3px, transparent 6.8px,#92baac 6.8px,#92baac 11.3px,transparent 11.3px,transparent 15.8px,#92baac 15.8px);
+  background-color:#e1ebbd;
+  background-size: 12.8px 12.8px;
 }
+
 .CodeInput > div.dot-4::after {
   background-color: blue;
 }
 .CodeInput > div.dot-5::after {
-  background: linear-gradient(45deg, #92baac 1.5px, transparent 1.5px) 2.1px 2.1px,
-  linear-gradient(45deg, #92baac 1.5px, transparent 1.5px,transparent 3.1px, #e1ebbd 3.1px, #e1ebbd 4.5px, transparent 4.5px),
-  linear-gradient(-45deg, #92baac 0.8px, transparent 0.8px, transparent 3.3px,#92baac 3.3px,#92baac 3.8px,transparent 3.8px,transparent 5.3px,#92baac 5.3px)
+  background:
+    radial-gradient(circle at 0% 50%, rgba(96, 16, 48, 0) 4.5px, #613 5px, rgba(96, 16, 48, 0) 5.5px) 0px 5px,
+    radial-gradient(at 100% 100%,      rgba(96, 16, 48, 0) 4.5px, #613 5px, rgba(96, 16, 48, 0) 5.5px),
+    #8a3;
+  background-size: 10px 10px;
 }
 
